@@ -1,7 +1,7 @@
 import { StyleSheet, TextInput, View, Button } from 'react-native';
 import React, { useState } from 'react';
 import { useAppDispatch } from '../../hooks';
-import { addTodo } from './TodoSlice';
+import { addTodo } from './todoSlice';
 import 'react-native-get-random-values';
 import { v4 as uuidv4 } from 'uuid';
 
